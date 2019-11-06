@@ -1,0 +1,16 @@
+body{
+	text-align: center;
+	color: white;
+
+}
+.big-box{
+	background: green;
+	padding: 50px 50px;
+	margin: 8px;
+	line-height: 80px;
+}
+.mini-box{
+	background: green;
+	padding: 30px 30px;
+	margin: 8px;
+}

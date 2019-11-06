@@ -1,0 +1,53 @@
+.big-box{
+	width: 30%;
+	height: 500px;
+	background: #8AF697;
+	margin: auto;
+}
+.mini-box{
+	width: 95%;
+	height: auto;
+	background: black;
+	margin: 0 auto;
+	padding: 20px 30px 0 40px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.mini-box blockquote{
+	color: white;
+	text-indent: 3rem;
+	position: relative;
+}
+ .mini-box blockquote:before{
+	font-family: arial;
+	font-size: 7rem;
+	content: "\201C";
+	color: white;
+	position: absolute;
+	left: -50px;
+	top: -45px;
+}
+.triangle-down {
+    position: absolute;
+    width: 0;
+    top: 316px;
+    left: 432px;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 60px solid pink;
+}
+.btn-bottom{
+	/* background: red; */
+	margin-top: 4rem;
+}
+.btn-bottom .row .col-md-3 img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.btn-bottom blockquote{
+	padding-top: 2rem;
+	padding-left: 1rem;
+	color: white;
+}

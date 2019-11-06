@@ -1,0 +1,29 @@
+body{
+	font-family: Arial, sans-serif !important;
+}
+.main-sidebar{
+	/* display: flex; */
+	margin-top: 2rem;
+}
+blockquote{
+	text-indent: 30px;
+	line-height: 40px;
+	background: white;
+	margin-top: 3rem;
+
+}
+blockquote:before{
+	    font-family: arial;
+    content: "\201C";
+    font-size: 12rem;
+    color: black;
+    position: absolute;
+    top: 45px;
+    left: -48px;
+}
+/* .col-md-3 img{
+	width: 100px;
+	height: 100px;
+	border: 3px solid white;
+	border-radius: 50%;
+} */

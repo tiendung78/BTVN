@@ -1,0 +1,26 @@
+body{
+	font-family: "Roboto", sans-serif;
+}
+.col-md-3 img{
+	width: 150px;
+	height: 150px;
+	margin: 10px 0;
+	border-radius: 50%;
+}
+blockquote{
+	padding: 10px 0;
+	position: relative;
+	text-indent: 1.5rem;
+}
+blockquote:before{
+	font-family: arial;
+	content: "\201C";
+	color: black;
+	font-size: 5rem;
+	position: absolute;
+	left: -30px;
+	top: -13px;
+}
+.blockquote-footer{
+	text-indent: 0rem !important;
+}

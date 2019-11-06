@@ -1,0 +1,20 @@
+.col-md-5 img{
+	width: 350px;
+	height: 300px;
+}
+.col-md-7 blockquote{
+	position: relative;
+}
+.triangle-left {
+    position: absolute;
+    top: -64px;
+    left: -136px;
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 100px solid white;
+    border-bottom: 40px solid transparent;
+}
+.col-md-5 .main{
+	float: right;
+}

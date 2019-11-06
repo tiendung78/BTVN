@@ -1,0 +1,12 @@
+blockquote:before{
+	font-family: arial;
+	content: "\201C";
+	color: white;
+	font-size: 4rem;
+	position: absolute;
+	top: -20px;
+	font-weight: bold;
+}
+blockquote p{
+	text-indent: 2rem;
+}

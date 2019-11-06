@@ -1,0 +1,24 @@
+.container{
+	border-radius: 10px;
+	padding: 30px;
+	padding-top: 5rem;
+	padding-left: 4rem !important;
+}
+.col-md-9 blockquote{
+	color: white;
+	line-height: 2rem;
+	position: relative;
+	font-family: arial;
+}
+.col-md-9 blockquote:before{
+	content: "\201C";
+	font-family: arial;
+	color: white;
+	font-size: 10rem;
+	position: absolute;
+	top: 0;
+	left: -5px;
+}
+.break-line-top {
+	border-top: 1px solid white;
+}
